@@ -208,7 +208,7 @@
         </div>
 
         <div class="product">
-            <img src="blob:https://imgur.com/7d338f94-a565-4352-a053-d38c61dcc619" alt="Honeycomb">
+            <img src="https://i.imgur.com/i8tt7uE.jpeg" alt="Honeycomb">
             <div class="product-info">
                 <div class="product-name">Honeycomb</div>
                 <div class="product-price">Price: TBD</div>
@@ -216,7 +216,7 @@
         </div>
 
         <div class="product">
-            <img src="C:\Users\tiger\Pictures\Camera Roll\WhatsApp Image 2024-12-27 at 13.17.51_addeec79.jpg" alt="Silver Streak">
+            <img src="https://i.imgur.com/y74x33K.jpeg" alt="Silver Streak">
             <div class="product-info">
                 <div class="product-name">Silver Streak</div>
                 <div class="product-price">Price: TBD</div>
