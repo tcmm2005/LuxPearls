@@ -2,8 +2,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Showcase</title>
-    <style>
-         body {
+ <style>
+  body {
     font-family: 'Georgia', serif; /* Elegant font */
     margin: 0;
     padding: 0;
@@ -161,7 +161,12 @@ header {
         font-size: 1.2em;
     }
 }
-    </style>
+
+</style>
+
+
+
+
 </head>
 <body>
     <div class="options2">
@@ -281,4 +286,3 @@ header {
         }
     </script>
 </body>
-
