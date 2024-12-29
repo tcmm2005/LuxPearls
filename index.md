@@ -144,7 +144,7 @@
 
     <div class="products-container">
         <div class="product">
-            <img src="C:\Users\tiger\Pictures\Camera Roll\WhatsApp Image 2024-12-27 at 13.17.41_040a43f9.jpg" alt="Midnight Bloom">
+            <img src="https://i.imgur.com/suUIfmH.jpeg" alt="Midnight Bloom">
             <div class="product-info">
                 <div class="product-name">Midnight Bloom</div>
                 <div class="product-price">Price: TBD</div>
