@@ -5,107 +5,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Showcase</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f0f6;
-            color: #333;
-        }
+              body {
+    font-family: 'Georgia', serif; /* Elegant font */
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, #ffe5f0, #ffc1d6, #ffaad4);
+    color: #444;
+    overflow-x: hidden;
+}
 
-        header {
-            background-color: #f5a5c0;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-            font-size: 1.8em;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
+header {
+    background: linear-gradient(90deg, #ff66b2, #ff3385);
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
 
-        .products-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            padding: 20px;
-            max-width: 1200px;
-            margin: auto;
-        }
+.options2 {
+    text-align: center;
+    margin: 30px 0;
+}
 
-        .product {
-            background: white;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            overflow: hidden;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
+.options2 button {
+    background: linear-gradient(145deg, #ff66b2, #ff3385); /* Smooth gradient */
+    color: white;
+    font-size: 1.5em;
+    padding: 18px 30px;
+    margin: 10px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease, box-shadow 0.4s ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
 
-        .product:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
-        }
+.options2 button:hover {
+    background: linear-gradient(145deg, #ff3385, #ff66b2); /* Reversed gradient */
+    color: #fff;
+    border: 2px solid #ff66b2;
+    box-shadow: 0 8px 25px rgba(255, 105, 180, 0.5); /* Soft glowing effect */
+    transform: scale(1.1); /* Slight enlargement */
+    text-shadow: 0 0 15px rgba(255, 105, 180, 0.7), 0 0 25px rgba(255, 105, 180, 0.5);
+}
 
-        .product img {
-            width: 100%;
-            height: auto;
-        }
+.options2 button:focus {
+    outline: none;
+}
 
-        .product-info {
-            padding: 15px;
-            text-align: center;
-        }
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 30px auto;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
 
-        .product-name {
-            font-size: 1.2em;
-            font-weight: bold;
-            margin-bottom: 10px;
-            color: #f5a5c0;
-        }
+.product {
+    background: linear-gradient(135deg, #ffe5f0, #ffd6eb);
+    border: 1px solid #ffaad4;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.4s, box-shadow 0.4s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-        .product-price {
-            font-size: 1.1em;
-            color: #444;
-        }
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
 
-        .options2 {
-            text-align: center;
-            margin-top: 20px;
-        }
+.product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ffaad4;
+}
 
-        .options2 button {
-            background-color: #f5a5c0;
-            color: white;
-            font-size: 1.2em;
-            border: none;
-            padding: 12px 20px;
-            margin: 5px;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
+.product-info {
+    padding: 20px;
+    text-align: center;
+}
 
-        .options2 button:hover {
-            background-color: #d47a96;
-        }
+.product-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ff3385;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
 
-        @media screen and (max-width: 768px) {
-            header {
-                font-size: 1.6em;
-            }
+.product-price {
+    font-size: 1.3em;
+    color: #666;
+    font-style: italic;
+}
 
-            .products-container {
-                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-                padding: 10px;
-            }
 
-            .product-info .product-name {
-                font-size: 1em;
-            }
 
-            .product-info .product-price {
-                font-size: 1.1em;
-            }
-        }
+@media screen and (max-width: 768px) {
+    header {
+        font-size: 2em;
+    }
+
+    .products-container {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        padding: 20px;
+    }
+
+    .product-info .product-name {
+        font-size: 1.3em;
+    }
+
+    .product-info .product-price {
+        font-size: 1.2em;
+    }
+}
     </style>
 </head>
 
