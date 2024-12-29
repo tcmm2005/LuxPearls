@@ -152,7 +152,7 @@
         </div>
 
         <div class="product">
-            <img src="C:\Users\tiger\Pictures\Camera Roll\WhatsApp Image 2024-12-27 at 13.17.42_9f1e4846.jpg" alt="Silver Shadow">
+            <img src="https://i.imgur.com/vtEvs3z.jpeg" alt="Silver Shadow">
             <div class="product-info">
                 <div class="product-name">Silver Shadow</div>
                 <div class="product-price">Price: TBD</div>
@@ -160,7 +160,7 @@
         </div>
 
         <div class="product">
-            <img src="C:\Users\tiger\Pictures\Camera Roll\WhatsApp Image 2024-12-27 at 13.17.42_702684ac.jpg" alt="Volcanic Gold">
+            <img src="https://i.imgur.com/fJyDbrG.jpeg" alt="Volcanic Gold">
             <div class="product-info">
                 <div class="product-name">Volcanic Gold</div>
                 <div class="product-price">Price: TBD</div>
@@ -168,7 +168,7 @@
         </div>
 
         <div class="product">
-            <img src="C:\Users\tiger\Pictures\Camera Roll\WhatsApp Image 2024-12-27 at 13.17.43_c43c62ba.jpg" alt="White Sands">
+            <img src="https://i.imgur.com/T2ZPcH3.jpeg" alt="White Sands">
             <div class="product-info">
                 <div class="product-name">White Sands</div>
                 <div class="product-price">Price: TBD</div>
@@ -176,7 +176,7 @@
         </div>
 
         <div class="product">
-            <img src="C:\Users\tiger\Pictures\Camera Roll\WhatsApp Image 2024-12-27 at 13.17.46_cb63a0c9.jpg" alt="Black Sun">
+            <img src="https://i.imgur.com/UCROymP.jpeg" alt="Black Sun">
             <div class="product-info">
                 <div class="product-name">Black Sun</div>
                 <div class="product-price">Price: TBD</div>
@@ -184,7 +184,7 @@
         </div>
 
         <div class="product">
-            <img src="C:\Users\tiger\Pictures\Camera Roll\WhatsApp Image 2024-12-27 at 13.17.47_98ac9c04.jpg" alt="Lava Luxe">
+            <img src="https://i.imgur.com/BdtqlkH.jpeg" alt="Lava Luxe">
             <div class="product-info">
                 <div class="product-name">Lava Luxe</div>
                 <div class="product-price">Price: TBD</div>
@@ -192,7 +192,7 @@
         </div>
 
         <div class="product">
-            <img src="C:\Users\tiger\Pictures\Camera Roll\WhatsApp Image 2024-12-27 at 13.17.47_d48b22aa.jpg" alt="Crystal Stream">
+            <img src="https://i.imgur.com/3zrQFiX.jpeg" alt="Crystal Stream">
             <div class="product-info">
                 <div class="product-name">Crystal Stream</div>
                 <div class="product-price">Price: TBD</div>
@@ -200,7 +200,7 @@
         </div>
 
         <div class="product">
-            <img src="C:\Users\tiger\Pictures\Camera Roll\WhatsApp Image 2024-12-27 at 13.17.49_ee1d9e47.jpg" alt="Pearl Elegance">
+            <img src="https://i.imgur.com/CtmJvmh.jpeg" alt="Pearl Elegance">
             <div class="product-info">
                 <div class="product-name">Pearl Elegance</div>
                 <div class="product-price">Price: TBD</div>
@@ -208,7 +208,7 @@
         </div>
 
         <div class="product">
-            <img src="C:\Users\tiger\Pictures\Camera Roll\WhatsApp Image 2024-12-27 at 13.17.50_11c7406c.jpg" alt="Honeycomb">
+            <img src="blob:https://imgur.com/7d338f94-a565-4352-a053-d38c61dcc619" alt="Honeycomb">
             <div class="product-info">
                 <div class="product-name">Honeycomb</div>
                 <div class="product-price">Price: TBD</div>
