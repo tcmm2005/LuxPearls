@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f0f6;
+            color: #333;
+        }
+
+        header {
+            background-color: #f5a5c0;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 1.8em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .products-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .product {
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .product:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product-info {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .product-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #f5a5c0;
+        }
+
+        .product-price {
+            font-size: 1.1em;
+            color: #444;
+        }
+
+        .options2 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .options2 button {
+            background-color: #f5a5c0;
+            color: white;
+            font-size: 1.2em;
+            border: none;
+            padding: 12px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .options2 button:hover {
+            background-color: #d47a96;
+        }
+
+        @media screen and (max-width: 768px) {
+            header {
+                font-size: 1.6em;
+            }
+
+            .products-container {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                padding: 10px;
+            }
+
+            .product-info .product-name {
+                font-size: 1em;
+            }
+
+            .product-info .product-price {
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="options2">
+    <button onclick="gotoobracelet()">Bracelet</button>
+    <button onclick="gotoonecklace()">Necklace</button>
+    <button onclick="gotooearings()">Earrings</button>
+</div>
+
+<header>Necklaces</header>
+
+<div class="products-container">
+    <div class="product">
+        <img src="C:\Users\tiger\Pictures\Camera Roll\WhatsApp Image 2024-12-27 at 13.14.03_5d32cecf.jpg" alt="Pearl Symphony">
+        <div class="product-info">
+            <div class="product-name">Pearl Symphony</div>
+            <div class="product-price">Price: TBD</div>
+        </div>
+    </div>
+
+    <div class="product">
+        <img src="C:\Users\tiger\Pictures\Camera Roll\WhatsApp Image 2024-12-27 at 13.14.04_f407cd81.jpg" alt="Winterberry">
+        <div class="product-info">
+            <div class="product-name">Winterberry</div>
+            <div class="product-price">Price: TBD</div>
+        </div>
+    </div>
+
+    <div class="product">
+        <img src="C:\Users\tiger\Pictures\Camera Roll\WhatsApp Image 2024-12-27 at 13.17.53_79591bf9.jpg" alt="Black Velvet">
+        <div class="product-info">
+            <div class="product-name">Black Velvet</div>
+            <div class="product-price">Price: TBD</div>
+        </div>
+    </div>
+
+    <div class="product">
+        <img src="C:\Users\tiger\Pictures\Camera Roll\WhatsApp Image 2024-12-27 at 13.18.26_d9a4fc00.jpg" alt="Pearl of Protection">
+        <div class="product-info">
+            <div class="product-name">Pearl of Protection</div>
+            <div class="product-price">Price: TBD</div>
+        </div>
+    </div>
+
+    <div class="product">
+        <img src="C:\Users\tiger\Pictures\Camera Roll\WhatsApp Image 2024-12-27 at 13.18.26_75ca505c.jpg" alt="Spring Bloom">
+        <div class="product-info">
+            <div class="product-name">Spring Bloom</div>
+            <div class="product-price">Price: TBD</div>
+        </div>
+    </div>
+
+    <div class="product">
+        <img src="C:\Users\tiger\Pictures\Camera Roll\WhatsApp Image 2024-12-27 at 13.18.27_7f643a7d.jpg" alt="Pearl Oasis">
+        <div class="product-info">
+            <div class="product-name">Pearl Oasis</div>
+            <div class="product-price">Price: TBD</div>
+        </div>
+    </div>
+
+    <div class="product">
+        <img src="C:\Users\tiger\Pictures\Camera Roll\WhatsApp Image 2024-12-27 at 13.18.33_41e54709.jpg" alt="Pearl Twirl">
+        <div class="product-info">
+            <div class="product-name">Pearl Twirl</div>
+            <div class="product-price">Price: TBD</div>
+        </div>
+    </div>
+
+    <div class="product">
+        <img src="C:\Users\tiger\Pictures\Camera Roll\WhatsApp Image 2024-12-27 at 13.18.34_d5ccaa4d.jpg" alt="Onyx Edge">
+        <div class="product-info">
+            <div class="product-name">Onyx Edge</div>
+            <div class="product-price">Price: TBD</div>
+        </div>
+    </div>
+
+    <div class="product">
+        <img src="C:\Users\tiger\Pictures\Camera Roll\WhatsApp Image 2024-12-27 at 13.18.34_394cdb6b.jpg" alt="Lucky Charm">
+        <div class="product-info">
+            <div class="product-name">Lucky Charm</div>
+            <div class="product-price">Price: TBD</div>
+        </div>
+    </div>
+
+    <div class="product">
+        <img src="C:\Users\tiger\Pictures\Camera Roll\WhatsApp Image 2024-12-27 at 13.18.44_728fac12.jpg" alt="Golden Hour">
+        <div class="product-info">
+            <div class="product-name">Golden Hour</div>
+            <div class="product-price">Price: TBD</div>
+        </div>
+    </div>
+
+    <div class="product">
+        <img src="C:\Users\tiger\Pictures\Camera Roll\WhatsApp Image 2024-12-27 at 13.18.46_2d6dba78.jpg" alt="Shadow Dance">
+        <div class="product-info">
+            <div class="product-name">Shadow Dance</div>
+            <div class="product-price">Price: TBD</div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function gotoobracelet() {
+        window.location.href = "bracelet.html";
+    }
+
+    function gotoonecklace() {
+        window.location.href = "necklace.html";
+    }
+
+    function gotooearings() {
+        window.location.href = "earings.html";
+    }
+</script>
+
+</body>
+</html>
