@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Showcase</title>
  <style>
-  body {
+body {
     font-family: 'Georgia', serif; /* Elegant font */
     margin: 0;
     padding: 0;
@@ -15,65 +15,61 @@
 header {
     background: linear-gradient(90deg, #ff66b2, #ff3385);
     color: white;
-    padding: 30px 0;
+    padding: 20px;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .options2 {
     text-align: center;
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
 .options2 button {
-    background: linear-gradient(145deg, #ff66b2, #ff3385); /* Smooth gradient */
+    background: linear-gradient(145deg, #ff66b2, #ff3385);
     color: white;
-    font-size: 1.5em;
-    padding: 18px 30px;
-    margin: 10px;
+    font-size: 1.2em;
+    padding: 14px 20px;
+    margin: 5px;
     border: 2px solid transparent;
-    border-radius: 25px;
+    border-radius: 20px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: all 0.3s ease, box-shadow 0.4s ease-in-out;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     font-weight: bold;
 }
 
 .options2 button:hover {
-    background: linear-gradient(145deg, #ff3385, #ff66b2); /* Reversed gradient */
+    background: linear-gradient(145deg, #ff3385, #ff66b2);
     color: #fff;
     border: 2px solid #ff66b2;
-    box-shadow: 0 8px 25px rgba(255, 105, 180, 0.5); /* Soft glowing effect */
-    transform: scale(1.1); /* Slight enlargement */
-    text-shadow: 0 0 15px rgba(255, 105, 180, 0.7), 0 0 25px rgba(255, 105, 180, 0.5);
-}
-
-.options2 button:focus {
-    outline: none;
+    box-shadow: 0 8px 25px rgba(255, 105, 180, 0.5);
+    transform: scale(1.05);
+    text-shadow: 0 0 10px rgba(255, 105, 180, 0.7), 0 0 15px rgba(255, 105, 180, 0.5);
 }
 
 .products-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
-    padding: 50px;
-    max-width: 1200px;
-    margin: 30px auto;
-    border-radius: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    max-width: 100%;
+    margin: 20px auto;
     background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 
 .product {
     background: linear-gradient(135deg, #ffe5f0, #ffd6eb);
     border: 1px solid #ffaad4;
-    border-radius: 15px;
+    border-radius: 10px;
     overflow: hidden;
     transition: transform 0.4s, box-shadow 0.4s ease-in-out;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -91,77 +87,76 @@ header {
 }
 
 .product-info {
-    padding: 20px;
+    padding: 15px;
     text-align: center;
 }
 
 .product-name {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: #ff3385;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .product-price {
-    font-size: 1.3em;
+    font-size: 1em;
     color: #666;
     font-style: italic;
 }
 
 .options {
     text-align: center;
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
 .options button {
-    background: linear-gradient(145deg, #ff66b2, #ff3385); /* Smooth gradient */
+    background: linear-gradient(145deg, #ff66b2, #ff3385);
     color: white;
-    font-size: 1.5em;
-    padding: 15px 30px;
-    margin: 10px;
+    font-size: 1.2em;
+    padding: 12px 20px;
+    margin: 5px;
     border: none;
-    border-radius: 25px;
+    border-radius: 20px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: all 0.3s ease, box-shadow 0.4s ease-in-out;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     font-weight: bold;
 }
 
 .options button:hover {
-    background: linear-gradient(145deg, #ff3385, #ff66b2); /* Reversed gradient */
+    background: linear-gradient(145deg, #ff3385, #ff66b2);
     color: #fff;
     border: 2px solid #ff66b2;
-    box-shadow: 0 8px 25px rgba(255, 105, 180, 0.5); /* Soft glowing effect */
-    transform: scale(1.1); /* Slight enlargement */
-    text-shadow: 0 0 15px rgba(255, 105, 180, 0.7), 0 0 25px rgba(255, 105, 180, 0.5);
+    box-shadow: 0 8px 25px rgba(255, 105, 180, 0.5);
+    transform: scale(1.05);
+    text-shadow: 0 0 10px rgba(255, 105, 180, 0.7), 0 0 15px rgba(255, 105, 180, 0.5);
 }
 
-.options button:focus {
-    outline: none;
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     header {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
-    .products-container {
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-        padding: 20px;
+    .options2 button, .options button {
+        font-size: 1em;
+        padding: 10px 15px;
     }
 
-    .product-info .product-name {
-        font-size: 1.3em;
+    .product-info {
+        padding: 10px;
     }
 
-    .product-info .product-price {
-        font-size: 1.2em;
+    .product-name {
+        font-size: 1em;
+    }
+
+    .product-price {
+        font-size: 0.9em;
     }
 }
-
 </style>
 
 
